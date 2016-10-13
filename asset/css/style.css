@@ -1,0 +1,101 @@
+body{font-family: Verdana,sans-serif;}
+a:hover{text-decoration: none;}
+.headertop{background: #EEEEEE; height: 60px;}
+.sidebar{
+    top:70px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;}
+.categorySection{min-height: 500px;}
+.categoryarea{margin-top: 70px;
+              margin-left: 200px;}
+.flip,.ct{padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+          cursor: pointer;
+}
+.flip{font-size: 12px;}
+.ct{display: none;
+}
+.categorySection{min-height: 450px;}
+.categoryarea{margin-top: 70px;}
+.red{color: red;}
+.errors{color: red;
+        /*        background: #E5EECC;
+                width: 500px;
+                margin-left: 200px;
+                height: 35px;
+                padding: 7px;*/
+        font-size: 15px;}
+.success{
+    color: green;
+}
+.ctTitle{font-family: Verdana,sans-serif;
+         font-size: 15px;
+         line-height: 1.5;
+         margin-top: -10px;
+         margin-bottom: 10px;
+}
+
+
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+}
+/*its for search*/
+.searchdiv{margin-bottom: 10px;
+           width: 255px;
+           margin-top: -31px;}
+.txtSearch{width: 210px;
+           float: left;
+           margin-right: 1px;}
+.btnSearch{}
+.btnSearch span{height: 17px;
+                padding: 2px;}
+.sameEdit{height: 25px;
+          width: 30px;
+          padding: 1px;}
+.sameDelete{height: 25px;
+            width: 30px;
+            padding: 1px;}
+.cateName{font-size: 15px;
+          font-weight: normal;
+          font-family: sans-serif;}
+.subcateName{font-size: 15px;
+             font-weight: normal;
+             font-family: sans-serif;}
+.sameli{ font-size: 12px;
+}
+.product{background: #e5eecc;
+         padding: 5px;
+         border: 1px solid #c3c3c3;
+         cursor: pointer;
+         font-size: 12px;
+}
+.pdt{display: none;
+     background: #e5eecc;
+     border: 1px solid #c3c3c3;
+     text-align: center;
+     padding: 4px;
+}
+.pdtname,.pdtdesc{font-size: 15px;
+         font-weight: normal;
+}
