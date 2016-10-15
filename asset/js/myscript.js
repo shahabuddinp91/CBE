@@ -1,29 +1,18 @@
 $(document).ready(function () {
-    $(".flip").on({
-        mouseenter: function () {
-            $(".ct").slideToggle("slow");
-        },
+    $(".flip").click(function(){
+            $(".ct").slideDown("slow");
     });
     $(".ct").on({
         mouseleave: function () {
-            $(".ct").slideToggle("slow");
+            $(".ct").slideUp("slow");
         }
     });
-//    $(".flip").mouseenter(function () {
-//        $(".ct").slideToggle("slow");
-//    });
-    $(".product").on({
-        mouseenter: function () {
-            $(".pdt").slideToggle("slow");
-        },
+    $(".product").click(function () {
+            $(".pdt").slideDown("slow");
     });
     $(".pdt").on({
         mouseleave: function () {
-            $(".pdt").slideToggle("slow");
+            $(".pdt").slideUp("slow");
         }
     });
-//    $(".product").mouseenter(function () {
-//        $(".pdt").slideToggle("slow");
-//    });
-
 });
